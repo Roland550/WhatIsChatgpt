@@ -1,0 +1,148 @@
+.gpt4_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+.gpt4_navbar-links{
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gpt4_navbar-links-logo{
+    display: flex;
+    margin-right: 2rem;
+   
+}
+.gpt4_navbar-links-logo img{
+    display: flex;
+    width: 62px;
+    height: 16px;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+ }
+
+
+.gpt4_navbar-links_container{
+    display: flex;
+  
+    margin-left: 10rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+
+} 
+
+.gpt4_navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gpt4_navbar-links_container p,
+.gpt4_navbar-links_sign, p,
+.gpt4_navbar-menu_container p{
+    color: #fff;
+    font-family: var(--font-family); 
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gpt4_navbar-sign button,
+.gpt4_navbar-menu_container button {
+    padding: 1rem 2rem;
+    background: #ff4820;
+    border-radius: 5px;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+   
+
+}
+
+.gpt4_navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.gpt4_navbar-menu svg{
+    cursor: pointer;
+}
+
+.gpt4_navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+    flex-direction: column;
+
+    background: var(--color-footer);
+    padding: 1rem;
+    position:absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5 rgba(0, 0, 0, 0.2);
+}
+.gpt4_navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.gpt4_navbar-menu_container-links-sign{
+    display: none;
+}
+
+
+/* Responsiveness detail in order to contain in any device*/
+
+@media screen and (max-width: 1050px){
+    .gpt4_navbar-links_container{
+        display: none;
+    }
+
+    .gpt4_navbar-menu{
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .gpt4_navbar{
+        padding: 2em 1rem;
+    }  
+}
+
+
+@media screen and (max-width: 500px){
+    .gpt4_navbar-links_container{
+        display: none;
+    }
+
+    .gpt4_navbar-sign{
+        display: none;
+    }
+    .gpt4_navbar-menu_container{
+        top: 20px;
+    }
+    .gpt4_navbar-menu_container-links-sign{
+        display: block;
+    }
+}
+
