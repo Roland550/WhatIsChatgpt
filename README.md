@@ -1,3 +1,15 @@
+# The output of the project
+
+![pict1](https://github.com/Roland550/WhatIsChatgpt/assets/133446553/c7031ada-8e7f-46f5-a14a-9765f682ce73)
+## On tablet
+![Galaxy-Fold2-localhost (1)](https://github.com/Roland550/WhatIsChatgpt/assets/133446553/a4fd15fd-9a5c-4afd-a1c7-75093375bc74)
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
